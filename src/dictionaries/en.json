@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Plodnee — Personal Debt Advisor",
+    "description": "Analyze debt structure, calculate debt-free plans, and get tailored advice."
+  },
+  "common": {
+    "fallbackUserName": "User"
+  },
+  "auth": {
+    "eyebrow": "Sign in",
+    "title": "Welcome back",
+    "subtitle": "Sign in with Keycloak SSO to start using Plodnee",
+    "keycloakBtn": "Continue with Keycloak SSO",
+    "bullets": {
+      "mfa": "MFA and Passkey supported via Keycloak",
+      "pdpa": "End-to-end encryption per PDPA standards",
+      "account": "Use your corporate or personal account"
+    },
+    "legal": {
+      "prefix": "By signing in you agree to",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "suffix": "of Plodnee · This service is supervised under the Bank of Thailand Sandbox"
+    },
+    "help": "Need help signing in?",
+    "brand": {
+      "headlinePart1": "Your personal ",
+      "headlineEm": "debt advisor",
+      "headlinePart2": " available 24 hours a day",
+      "desc": "Analyze debt structure, calculate debt-free plans, and get tailored advice — no judgment, no upselling.",
+      "stats": {
+        "users": "Users served",
+        "debt": "Debt restructured",
+        "satisfaction": "Satisfaction"
+      },
+      "footer": "© 2026 Plodnee Co., Ltd.",
+      "certs": "PDPA · ISO 27001 · BOT Sandbox"
+    }
+  },
+  "sidebar": {
+    "newChat": "New chat",
+    "searchPlaceholder": "Search chat history",
+    "noHistory": "No conversations yet",
+    "conversations": "{n} conversations",
+    "collapseSidebar": "Collapse sidebar",
+    "buckets": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "week": "Last 7 days",
+      "month": "Last 30 days",
+      "older": "Older"
+    },
+    "menu": {
+      "profile": "My profile",
+      "settings": "Settings",
+      "signOut": "Sign out"
+    }
+  },
+  "topbar": {
+    "share": "Share",
+    "more": "More options",
+    "newChat": "New chat",
+    "startedOn": "Started {date}"
+  },
+  "composer": {
+    "placeholder": "Type your question... (Shift+Enter for new line)",
+    "continuePlaceholder": "Continue the conversation...",
+    "disclaimer": "Plodnee may give inaccurate responses — verify important information before deciding",
+    "disclaimerLink": "Disclaimer",
+    "attachFile": "Attach file",
+    "calculate": "Calculate",
+    "voice": "Voice"
+  },
+  "messages": {
+    "copy": "Copy",
+    "regenerate": "Regenerate",
+    "like": "Like",
+    "dislike": "Dislike",
+    "thinking": "Plodnee is thinking"
+  },
+  "empty": {
+    "greeting": "Hello, {name}",
+    "questionPart1": "What can I ",
+    "questionEm": "help you with",
+    "questionPart2": " today?",
+    "lead": "I'm your personal debt advisor — ask me anything, from planning your repayment to calculating interest or negotiating with your bank. Everything stays private.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqUpdated": "Last updated May 8, 2026",
+    "suggestions": [
+      {
+        "tag": "Analyze",
+        "title": "Help me consolidate all my credit card debt",
+        "desc": "Analyze interest rates and recommend the best consolidation approach"
+      },
+      {
+        "tag": "Calculate",
+        "title": "Calculate my DSR",
+        "desc": "See what percentage of your income goes to debt repayment"
+      },
+      {
+        "tag": "Plan",
+        "title": "Build a debt-free plan in 24 months",
+        "desc": "Create a monthly repayment plan based on your income"
+      },
+      {
+        "tag": "Negotiate",
+        "title": "Draft a letter to request lower interest",
+        "desc": "Help write a letter to negotiate with your bank appropriately"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is debt restructuring?",
+        "a": "Debt restructuring means renegotiating repayment terms with creditors — for example, reducing interest rates, extending the repayment period, or lowering monthly installments."
+      },
+      {
+        "q": "What documents should I prepare before starting?",
+        "a": "Prepare (1) latest statements, (2) copies of loan agreements, (3) 3 months of pay slips, (4) monthly expense records."
+      },
+      {
+        "q": "Is this service free?",
+        "a": "Initial consultations and debt analysis through the system are free. Fees only apply if you choose the full negotiation-on-your-behalf service."
+      },
+      {
+        "q": "Is my data safe?",
+        "a": "All data is encrypted with AES-256 and stored under PDPA standards. Sign-in uses Keycloak SSO with MFA."
+      }
+    ]
+  },
+  "chat": {
+    "errors": {
+      "wsError": "Connection lost. Please try again.",
+      "createSession": "Could not create a new conversation.",
+      "loadHistory": "Could not load conversation history.",
+      "notConnected": "Connecting… please try again in a moment.",
+      "serverError": "Error: {error}"
+    },
+    "shareCopied": "Share link copied"
+  }
+}
